@@ -1,0 +1,126 @@
+body {
+    background-color: #191d28;
+    font-family: sans-serif;
+}
+
+.greyColor {
+    color: #4b4b4b;
+}
+
+.kindaHahahaBlueColor {
+    color: #5dc7c2;
+}
+
+.pageHeader {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 30px 0;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.spaceInThree {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.flexContainer {
+    display: flex;
+}
+
+.telegraBtn {
+    color: #fff;
+    background-color: #5dc7c2;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.telegraBtn i {
+    margin-right: 3px;
+}
+
+.flex-item {
+    margin: 0 10px;
+}
+
+a.title {
+    font-size: 3rem;
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+}
+
+.pageTitulo {
+    font-size: 20px;
+    text-align: center;
+}
+
+.priceContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.priceContainer>div {
+    text-align: center;
+}
+
+.priceContainer .percentagem {
+    font-size: 35px;
+}
+
+.priceContainer .timing {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.bigPriceContainer {
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.pageDescription {
+    text-align: center;
+    font-size: 12px;
+}
+
+table {
+    width: 95%;
+    margin: 0 auto;
+}
+
+table {
+    background-color: transparent;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+table thead th {
+    background-color: transparent;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+table tbody {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+table tbody tr {
+    padding: 50px;
+    background-color: #2e3241;
+}
+
+table td {
+    padding: 10px;
+}
